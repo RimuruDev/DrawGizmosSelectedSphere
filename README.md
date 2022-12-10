@@ -20,6 +20,7 @@ This switch is responsible for the current color of the rendered sphere.
 
 # IsDrawGizmos
 If this parameter is equal to true - the sphere will be drawn. If this parameter is equal to false, the sphere will not be drawn.
+
 ![изображение](https://user-images.githubusercontent.com/85500556/206855700-4269adfc-65cd-4a66-bbe3-6a5284928d3d.png)
 
 # What does it look like?
