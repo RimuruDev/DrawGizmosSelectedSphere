@@ -3,7 +3,7 @@
 2. Attach the script to the point or object you want to draw the gizmo on.
 3. Set up the component.
 
-![изображение](https://user-images.githubusercontent.com/85500556/206855261-2dc8b70a-0918-488b-be8b-7f6bf93da0d8.png)
+![изображение](https://user-images.githubusercontent.com/85500556/206855675-fb759276-6c83-45d0-85b7-ee56e12a4c77.png)
 
 # Radius
 Responsible for the radius of the sphere. 
@@ -20,7 +20,7 @@ This switch is responsible for the current color of the rendered sphere.
 
 # IsDrawGizmos
 If this parameter is equal to true - the sphere will be drawn. If this parameter is equal to false, the sphere will not be drawn.
-![изображение](https://user-images.githubusercontent.com/85500556/206855419-abe3b1ae-78a0-4257-9f31-91c45c6a230e.png)
+![изображение](https://user-images.githubusercontent.com/85500556/206855700-4269adfc-65cd-4a66-bbe3-6a5284928d3d.png)
 
 # What does it look like?
 
