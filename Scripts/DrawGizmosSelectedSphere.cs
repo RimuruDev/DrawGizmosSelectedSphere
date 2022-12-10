@@ -7,7 +7,7 @@ namespace RimuruDev.Helpers
         [SerializeField, Range(0.1f, 100)] private float radius;
         [SerializeField] private DrawGizmosColor drawGizmosColor;
         [Space]
-        [SerializeField] private bool isDrayGizmos;
+        [SerializeField] private bool isDrawGizmos;
 
         private readonly float minRadius = 0.1f;
         private readonly float maxRadius = 100f;
@@ -17,7 +17,7 @@ namespace RimuruDev.Helpers
         {
             drawGizmosColor = DrawGizmosColor.Red;
             radius = defaultRadius;
-            isDrayGizmos = true;
+            isDrawGizmos = true;
         }
 
         private void OnValidate()
@@ -28,7 +28,7 @@ namespace RimuruDev.Helpers
 
         private void OnDrawGizmos()
         {
-            if (!isDrayGizmos) return;
+            if (!isDrawGizmos) return;
 
             Gizmos.color = drawGizmosColor switch
             {
